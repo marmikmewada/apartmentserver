@@ -1,0 +1,16 @@
+- models/
+  - models.js           // Contains the User, Guard, and Visitor models
+- routes/
+  - user/
+    - auth/
+      - signup.js       // Signup route for creating a new user
+      - login.js        // Login route for authenticating a user
+- middleware/
+  - auth.js            // Authentication and authorization middleware
+- server.js           // Main server file
+- db.js               // Database connection file
+- .env                // Environment variables (e.g., JWT_SECRET_KEY)
+
+
+
+owner/getownerprofile.js if there is no apt found for that user - throw an error say unauthorised talk to society chairman
